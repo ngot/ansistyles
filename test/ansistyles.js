@@ -1,10 +1,10 @@
 'use strict';
 /*jshint asi: true */
 var assert = require('assert')
-  , styles = require('../')
+  , styles = require('../ansistyles')
 
 function inspect(obj, depth) {
-  console.log(require('util').inspect(obj, false, depth || 5, true));
+  console.log(require('utiljs').inspect(obj, false, depth || 5, true));
 }
 
 assert.equal(styles.reset('reset'), '\u001b[0mreset\u001b[22m', 'reset')
