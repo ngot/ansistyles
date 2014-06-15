@@ -1,4 +1,4 @@
-# ansistyles [![build status](https://secure.travis-ci.org/thlorenz/ansistyles.png)](http://next.travis-ci.org/thlorenz/ansistyles)
+# ansistyles
 
 Functions that surround a string with ansistyle codes so it prints in style.
 
