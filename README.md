@@ -1,8 +1,8 @@
-# ansistyles
+# Ansistyles
 
 Functions that surround a string with ansistyle codes so it prints in style.
 
-In case you need colors, like `red`, have a look at [ansicolors](https://github.com/thlorenz/ansicolors).
+In case you need colors, like `red`, have a look at [ansicolors](https://github.com/ngot/ansistyles).
 
 ## Usage
 
@@ -34,7 +34,7 @@ Look at the [tests](https://github.com/ngot/ansistyles/blob/master/test/ansistyl
 
 ## More Styles
 
-As you can see from [here](https://github.com/thlorenz/ansistyles/blob/master/ansistyles.js#L4-L15), more styles are available,
+As you can see from [here](https://github.com/ngot/ansistyles/blob/master/ansistyles.js#L4-L15), more styles are available,
 but didn't have any effect on the terminals that I tested on Mac Lion and Ubuntu Linux.
 
 I included them for completeness, but didn't show them in the examples because they seem to have no effect.
@@ -54,10 +54,3 @@ It is essentially the same as:
 ```js
 console.log(styles.underline('hell') + styles.reset('') + 'o world');
 ```
-
-
-
-## Alternatives
-
-**ansistyles** tries to meet simple use cases with a very simple API. However, if you need a more powerful ansi formatting tool, 
-I'd suggest to look at the [features](https://github.com/TooTallNate/ansi.js#features) of the [ansi module](https://github.com/TooTallNate/ansi.js).
