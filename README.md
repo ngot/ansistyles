@@ -4,10 +4,6 @@ Functions that surround a string with ansistyle codes so it prints in style.
 
 In case you need colors, like `red`, have a look at [ansicolors](https://github.com/thlorenz/ansicolors).
 
-## Installation
-
-    npm install ansistyles
-
 ## Usage
 
 ```js
@@ -19,10 +15,6 @@ console.log(styles.inverse('hello world'));   // prints hello world black on whi
 ```
 
 ## Combining with ansicolors
-
-Get the ansicolors module:
-
-    npm install ansicolors
 
 ```js
 var styles = require('ansistyles')
@@ -36,9 +28,9 @@ var styles = require('ansistyles')
 
 ## Tests
 
-Look at the [tests](https://github.com/thlorenz/ansistyles/blob/master/test/ansistyles.js) to see more examples and/or run them via: 
+Look at the [tests](https://github.com/ngot/ansistyles/blob/master/test/ansistyles.js) to see more examples and/or run them via: 
 
-    npm explore ansistyles && npm test
+    js test/ansistyles.js
 
 ## More Styles
 
